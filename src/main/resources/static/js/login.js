@@ -8,6 +8,7 @@ $(function (){
     $("#password").blur(function (){
         checkEmpty("password","不能为空")
     })
+    console.log();
     //为提交按钮添加点击事件
     $("#btn-login").click(function (){
         //    获取表单数据
